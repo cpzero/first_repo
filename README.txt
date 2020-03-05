@@ -27,7 +27,7 @@ How to add all files in the Working Directory (inc hidden file) to the Staging A
 4. To check status of the files type 'git status' and press enter
 5. To show the snapshots type 'git log' press enter
 
-How to remove files from the Staging Area
+How to remove files from the Staging Areas
 1. type 'git reset HEAD filename.ext' press enter or
 2. type 'git restore --staged filename.ext' press enter
 2. type 'git status' to see the file has been removed from the Staging Area and is no longer tracked
