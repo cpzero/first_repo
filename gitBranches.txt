@@ -1,0 +1,28 @@
+What are git branches?
+A: git timeline has chronological list of commits called the MASTER BRANCH. you can create a FEATURE/TEST BRANCH.
+The branch(s) can be MERGED into the Master - more on this later
+How to list all BRANCHES in your Git Repository
+A: type 'git branch' then press enter - lists all the branches by name
+How to create a new branch
+A: type 'git checkout -b nameOfNewBranch' then press enter (active branch shown with astrix i.e * branchName
+How to switch between branches
+A: type 'git checkout branchName' press enter
+How to add commits to a branch
+A: type 'git checkout feature1' press enter - get into the branch that you want to populate
+A: type 'touch fileName.ext' press enter to create a new file on the feature1 branch
+A: type 'git add fileName.ext' press enter to the new file to the Staging Area
+A: type 'git commit -m "Add fileName.ext to feature1 branch Git Repository"'
+A: type 'git log' press enter to see the new commit
+**PRESS 'Q' key to return to the command prompt
+Swap back to branch Master branch to see the effect on the Master Branch
+A: type 'git checkout master' press enter
+A: type 'git log' press enter to see the effect on the Master timeline
+Notice the file is not visible in the project files
+How to merge branches - if in master branch then
+A: git merge feature1
+How to remove a branch
+A: git branch -d feature1
+
+
+
+
